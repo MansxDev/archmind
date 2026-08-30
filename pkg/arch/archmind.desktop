@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Name=ArchMind
+GenericName=Mindmap Editor
+Comment=Lightweight mindmap tool for Arch Linux
+Exec=/home/mans/.local/bin/archmind
+Icon=archmind
+Terminal=false
+Categories=Utility;Education;Development;
+Keywords=mindmap;brainstorm;flow;diagram;
+StartupWMClass=archmind
+StartupNotify=true
+Actions=new-map;
+
+[Desktop Action new-map]
+Name=New Mindmap
+Exec=/home/mans/.local/bin/archmind --new
